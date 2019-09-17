@@ -10,3 +10,8 @@ fig = matplotlib.pyplot.figure(figsize=(3.0, 8.0)
 
 ave_inflammation = np.mean (data, axis=0)
 plt.plot(ave_inflammation)
+
+ave_inflammation = np.max (data, axis=0)
+plt.plot(ave_inflammation)
+			       
+			       
