@@ -1,3 +1,4 @@
+
 Import numpy as np 
 	data=np.loadtxt (
 		fname='data/inflammation.csv, delimiter ',')
@@ -5,3 +6,4 @@ Import numpy as np
 
 
 import matplotlib as plt
+fig = matplotlib.pyplot.figure(figsize=(3.0, 8.0)
